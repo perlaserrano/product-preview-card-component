@@ -1,0 +1,96 @@
+:root {
+  -white: hsl(0deg, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  padding: 18%;
+  background: #f3eae3;
+}
+
+.card-img-img {
+  width: 100%;
+}
+
+.cart button {
+  width: 47%;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 1rem;
+  color: white;
+  border: none;
+  background: #3d826b;
+}
+
+.perfum-span {
+  margin-left: -2rem;
+}
+
+@media (max-width: 1400px) {
+  .perfum {
+    width: 71%;
+  }
+}
+@media (max-width: 1400px) {
+  .number {
+    margin-top: -3.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .number {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 578px) {
+  .number {
+    margin-left: 13rem;
+    margin-top: -3.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .number {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (min-width: 450px) {
+  .number {
+    margin-top: -55px;
+    margin-left: 11rem;
+  }
+}
+@media (max-width: 375px) {
+  .number {
+    margin-left: 1rem;
+    margin-top: -15px;
+  }
+}
+@media (max-width: 375px) {
+  .cart button {
+    width: 12rem;
+    margin-bottom: 14px;
+  }
+}
+.perfum {
+  padding-left: 18rem;
+  background: white;
+}
+.perfum span {
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0%;
+  color: gray;
+  font-size: 17px;
+}
+.perfum p {
+  color: rgba(20, 126, 87, 0.9490196078);
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+}
+.perfum h1 {
+  margin-left: 0rem;
+  font-size: 39px;
+  font-family: "Fraunces", serif;
+}/*# sourceMappingURL=estilos.css.map */
